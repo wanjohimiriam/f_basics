@@ -1,0 +1,50 @@
+// import 'package:flutter/material.dart';
+
+
+// class Home extends StatelessWidget {
+//   const Home({super.key});
+
+//   @override
+//   Widget build(BuildContext context) {
+//     return Scaffold(
+//       appBar: AppBar(
+//         backgroundColor: Colors.blue.withOpacity(0.6),
+//         elevation: 0.0,
+//         title: Text("Rows & Columns"),
+//         centerTitle: true,
+//         ),
+//         body: ListView(
+//           itemExtent: 100.0,
+//           reverse: false,
+//           scrollDirection: Axis.vertical,
+//           shrinkWrap: true,
+//           children:[
+//             ListTile(
+//               leading: CircleAvatar(child: Icon(Icons.alarm), backgroundColor: Colors.brown.shade300,foregroundColor: Colors.blue.withOpacity(0.5),),
+//               title: Text("Wake Up"),
+//               subtitle: Text("its time to work"),
+//               trailing: Text("3500"),
+//               onTap: () {},
+//               tileColor: Colors.brown.shade50,
+//             ),
+//             ListTile(
+//               leading: Icon(Icons.alarm),
+//               title: Text("Wake Up"),
+//               subtitle: Text("its time to work"),
+//               trailing: Text("3500"),
+//               onTap: () {},
+//               tileColor: Colors.brown.shade50,
+//             ),
+//             ListTile(
+//               leading: Icon(Icons.alarm),
+//               title: Text("Wake Up"),
+//               subtitle: Text("its time to work"),
+//               trailing: Text("3500"),
+//               onTap: () {},
+//               tileColor: Colors.brown.shade50,
+//             )
+//           ]
+//         ),
+//     );
+//   }
+// }
