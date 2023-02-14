@@ -3,6 +3,8 @@
 //import 'package:basics_2/screens/listtile&listview.dart';
 //import 'package:basics_2/screens/listtile&listview.dart';
 //import 'package:basics_2/screens/listview_builder.dart';
+import 'package:basics_2/screens/container.dart';
+import 'package:basics_2/screens/intex.dart';
 import 'package:basics_2/screens/mango.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -31,7 +33,7 @@ class MyApp extends StatelessWidget {
        //title: "My Flutter App",
        themeMode: ThemeMode.system,
        debugShowCheckedModeBanner: false,
-       home: MangoApp(), 
+       home: Access(), 
     );
  }
 }
